@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ps2par-react/static/css/main.c46dce6a.chunk.css",
-    "main.js": "/ps2par-react/static/js/main.9c6df641.chunk.js",
-    "main.js.map": "/ps2par-react/static/js/main.9c6df641.chunk.js.map",
+    "main.css": "/ps2par-react/static/css/main.b8ca6e1a.chunk.css",
+    "main.js": "/ps2par-react/static/js/main.1ad0d96b.chunk.js",
+    "main.js.map": "/ps2par-react/static/js/main.1ad0d96b.chunk.js.map",
     "runtime-main.js": "/ps2par-react/static/js/runtime-main.c8b2078d.js",
     "runtime-main.js.map": "/ps2par-react/static/js/runtime-main.c8b2078d.js.map",
     "static/js/2.f60b1467.chunk.js": "/ps2par-react/static/js/2.f60b1467.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.ca6f5dc4.chunk.js": "/ps2par-react/static/js/3.ca6f5dc4.chunk.js",
     "static/js/3.ca6f5dc4.chunk.js.map": "/ps2par-react/static/js/3.ca6f5dc4.chunk.js.map",
     "index.html": "/ps2par-react/index.html",
-    "static/css/main.c46dce6a.chunk.css.map": "/ps2par-react/static/css/main.c46dce6a.chunk.css.map",
+    "static/css/main.b8ca6e1a.chunk.css.map": "/ps2par-react/static/css/main.b8ca6e1a.chunk.css.map",
     "static/js/2.f60b1467.chunk.js.LICENSE.txt": "/ps2par-react/static/js/2.f60b1467.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c8b2078d.js",
     "static/js/2.f60b1467.chunk.js",
-    "static/css/main.c46dce6a.chunk.css",
-    "static/js/main.9c6df641.chunk.js"
+    "static/css/main.b8ca6e1a.chunk.css",
+    "static/js/main.1ad0d96b.chunk.js"
   ]
 }
