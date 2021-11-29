@@ -24,8 +24,28 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Converter-form {
+  min-width: 90vw;
+}
+
+.Converter-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10pt;
+}
+
+.Converter-label {
+  font-size: large;
+}
+
+.Converter-codespace {
+  min-height: 30vh;
+  max-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.Converter-button {
+  margin: auto;
 }
 
 @keyframes App-logo-spin {
