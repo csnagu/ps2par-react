@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
@@ -13,17 +21,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .Converter-form {
   min-width: 90vw;
 }
@@ -31,6 +28,7 @@
 .Converter-container {
   display: grid;
   grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
   grid-gap: 10pt;
 }
 
@@ -45,14 +43,24 @@
 }
 
 .Converter-button {
-  margin: auto;
+  padding: 5pt 10pt;
+  margin: 0 20pt;
+  color: #fff;
+  background-color: #45c6ca;
+  border: 1px solid;
+  border-radius: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Converter-button:active {
+  -webkit-transform: translate(0, 2px);
+  -moz-transform: translate(0, 2px);
+  transform: translate(0, 2px);
+  border-bottom: none;
+}
+
+.Footer {
+  border-top: #f3f3f3;
+  margin-top: 10pt;
+  color: white;
+  font-size: small;
 }

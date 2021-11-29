@@ -5,9 +5,13 @@ import Converter from "./Converter";
 function App() {
   return (
     <div className="App">
-      <article className="App-header">
-        <Converter />
-      </article>
+      <Converter />
+      <footer className="Footer">
+        thanks for{" "}
+        <a href="http://www.big.or.jp/~dram/ps2code.html">
+          PS2PARコード変換スクリプト
+        </a>
+      </footer>
     </div>
   );
 }

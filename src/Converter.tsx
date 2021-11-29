@@ -48,7 +48,28 @@ export default class Converter extends React.Component<{}, ConverterState> {
             readOnly
           />
         </div>
+        <button
+          className="Converter-button"
+          type="button"
+          onClick={() => {
+            this.setState({
+              raw: "",
+              decode: "",
+            });
+          }}
+        >
+          Reset
+        </button>
         <input className="Converter-button" type="submit" value="Decode" />
+        <button
+          className="Converter-button"
+          type="button"
+          onClick={() => {
+            navigator.clipboard.writeText(this.state.decode);
+          }}
+        >
+          Copy
+        </button>{" "}
       </form>
     );
   }
